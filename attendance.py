@@ -36,7 +36,7 @@ now = datetime.now()
 dtString = now.strftime('%H:%M:%S')
 f.writelines(f'n{name},{dtString}')
  
-#### FOR CAPTURING SCREEN RATHER THAN WEBCAM
+#### FOR CAPTURING SCREEN RATHER THAN CAM
 # def captureScreen(bbox=(300,300,690+300,530+300)):
 #     capScr = np.array(ImageGrab.grab(bbox))
 #     capScr = cv2.cvtColor(capScr, cv2.COLOR_RGB2BGR)
